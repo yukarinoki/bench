@@ -1,0 +1,35 @@
+{
+    "column_length": 7,
+    "column_name": [
+        "ngpus",
+        "size",
+        "T",
+        "seed",
+        "msec",
+        "gflops",
+        "bandwidth"
+    ],
+    "regexp":
+    {
+        "length": 4,
+        "regexps":[
+            {
+                "groups": 4,
+                "regexp": "(\\d+),\\s*(\\d+),\\s*(\\d+),\\s*(\\d+)"
+            },
+            {
+                "groups": 1,
+                "regexp": "\\s*:::\\s*(\\d+)\\[msec\\]\\s*:::"
+            },
+            {
+                "groups": 1,
+                "regexp": "(\\d+.\\d+)\\s*GFLOPS/GPU"
+            },
+            {
+                "groups": 1,
+                "regexp": "\\s(\\d+.\\d+)\\s*GB/s / GPU"
+            }
+        ]
+
+    }
+}

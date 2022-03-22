@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bin-bib-record",
+  "private_key_id": "500974b2ae26900c19b926ed2b216db70e4130c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDC4gx9ZOyyFW5O\ncwjvNCmkBqyh0/WWqde8Kw8WV5KLtTY2nS6dSX4JbK5wPI+sBCLJDcRqpNef5kzB\nVXm55tYhS0rX+GC1fUiUlV+DB9cUkjzaqx2FPBI9V3pVbC+JupVQ4jLw+SiMhXYj\nDdKOeWNjXksmCchCOTXqCIpUbZLdZaMCjcRfCgTbxay3gdzLEPSlXqizt6aTGC5+\nhvERDT8p5kT95CtIwoFySZzbLGlE2qthAGXwNFskGLZ5DqQrvzH83mO0Z1WhgrNU\n88Iss0iZEAZhfI6I2jSd3CMnhZSdHfIh8+Mg63vClShIV++pDKCI4Yn9lIPrMAfz\nSARInk31AgMBAAECggEAJA0ECXhPjvwG7U07dGCeaWDws3kN3+KobX87qcLmcaDC\nmCTImEEdpymrNUkGvOgA9VduI9o9py9HuKYSwBCTQRJ4FG62mSxFbnMZeZhMMdqB\nlmP8MIb1ytIxZ7b9LknNUGqfyNMWrLQNsBtg/Yk4GQw685zwpkuGDTaqPEcO2ZSe\nJWLpwXdJBPbfdayH1FyONlDHIrtKYv5Y8tcCbnsHEBA6Xq34pmUFeiWECO3XbGRu\nHj2hZ5/4B+kwcvi4Hbx5YPR4o5+D4TBTBPDyImkpw65jMfkTVbwqaX1GbjTPnTOa\nxHxs+8D2/C30qmFCPrtoahnwOKJUUPqPhypa5qjb4QKBgQD2HgCCTYebmatxgksV\nbnCAROMS4/8DZZovGLTXYyMEkfVxghDrLxSdS3J15ktlhG+SxhNsyPHLt2R6np3c\nc6k7uFd1Lquey5hixD0BMro1YTJl+a4fyQU//Zh5SWdHgQDmpRIpXlWW4C5zjdQO\nwMfkp57DSVBIcdvXfr/7xnC3EQKBgQDKtWCa8sDJxjTe6KXDs1ItDLnuZ0hyDkyD\ndA3EuCLO7n03o47u4WFeluHVQoZwzOP0EiQ1rVFT3pP7Z2A2eTi0uZ5Y7z8pTRxj\nDqvw2XgYQfdu1q5MUCjo5I9jI9PpzQo4eTwypT70U+P1eUdg5vd07g9tAHZtFw66\nXqL0apNQpQKBgA3HTjX9Sys95ig7qCJyBWBY+vFyzDMPfBtI4c7xIOO/nCMXqgTQ\npPHNaIILO4taZ7iq2CmN8mN6R+jJeoL+AqpyPosz6q3ALi7RV6z6fww//cdRvBrR\ncTbM5r1bi6moIjnHYgXo3xfMQy168jVFO6ukarH6J8F2hl1BHlRlHqhRAoGBAKjb\nuJK6v1AV1TsO7+769OxkGop27Qld0ez7AvEpNo3MavCrRcjGZHcIFy2wUg+rDgTm\nC9XO/91unzUgoywdhNg/e6G4ApRkEM6PjTl/3qPOZ9Cj8uPNLpb6tlsuoDu1utra\nWwQRVUTwkQeONKCLJf34xU7WwNAVEga8COCz2u2lAoGAOY3as30rLFotOd6mXWF2\nOPwpW0E1O6SghVU8UuqDeYGJJvom9PFWasXaOQOZvWSZu9jWdDmB/sTaP+vqFcui\n06KSUyHlutSFBx3aKxwhBQpxAVca3VXCWr5PiQNOBJzikZQ7TsSnPgOQ1dVphhCn\nqvr+KcAVzjD9YQQfDE/ADr8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "binbib@bin-bib-record.iam.gserviceaccount.com",
+  "client_id": "100288848110299141900",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/binbib%40bin-bib-record.iam.gserviceaccount.com"
+}

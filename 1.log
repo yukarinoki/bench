@@ -1,0 +1,215 @@
+Running main() from /home/naosuke.shindo/denso-cqa-src/external/googletest-release-1.11.0/googletest/src/gtest_main.cc
+[==========] Running 25 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/0
+1, 16384, 100, 123
+ ---------------------- 
+ :::   54[msec]   :::
+ ---------------------- 
+ 995.57 GFLOPS/GPU
+ 499.74 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/0 (649 ms)
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/1
+1, 49152, 100, 123
+ ---------------------- 
+ :::   320[msec]   :::
+ ---------------------- 
+1510.64 GFLOPS/GPU
+ 756.31 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/1 (2355 ms)
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/2
+1, 81920, 100, 123
+ ---------------------- 
+ :::   843[msec]   :::
+ ---------------------- 
+1592.58 GFLOPS/GPU
+ 796.92 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/2 (5810 ms)
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/3
+1, 114688, 100, 123
+ ---------------------- 
+ :::   1629[msec]   :::
+ ---------------------- 
+1615.21 GFLOPS/GPU
+ 808.06 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/3 (10893 ms)
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/4
+1, 147456, 100, 123
+ ---------------------- 
+ :::   2676[msec]   :::
+ ---------------------- 
+1625.31 GFLOPS/GPU
+ 813.01 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/4 (17653 ms)
+[ RUN      ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/5
+1, 180224, 100, 123
+ ---------------------- 
+ :::   3984[msec]   :::
+ ---------------------- 
+1630.76 GFLOPS/GPU
+ 815.67 GB/s / GPU
+[       OK ] BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double.halfTest/5 (27081 ms)
+[----------] 6 tests from BasicCaseParameters1GPU/CqaSymvProjectionTest_half_double (64443 ms total)
+
+[----------] 8 tests from BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/0
+2, 16384, 100, 123
+ ---------------------- 
+ :::   42[msec]   :::
+ ---------------------- 
+ 640.01 GFLOPS/GPU
+ 321.26 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/0 (665 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/1
+2, 49152, 100, 123
+ ---------------------- 
+ :::   184[msec]   :::
+ ---------------------- 
+1313.60 GFLOPS/GPU
+ 657.66 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/1 (2363 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/2
+2, 81920, 100, 123
+ ---------------------- 
+ :::   459[msec]   :::
+ ---------------------- 
+1462.47 GFLOPS/GPU
+ 731.81 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/2 (5519 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/3
+2, 114688, 100, 123
+ ---------------------- 
+ :::   869[msec]   :::
+ ---------------------- 
+1513.91 GFLOPS/GPU
+ 757.38 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/3 (10194 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/4
+2, 147456, 100, 123
+ ---------------------- 
+ :::   1414[msec]   :::
+ ---------------------- 
+1537.95 GFLOPS/GPU
+ 769.31 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/4 (16254 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/5
+2, 180224, 100, 123
+ ---------------------- 
+ :::   2090[msec]   :::
+ ---------------------- 
+1554.29 GFLOPS/GPU
+ 777.43 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/5 (23753 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/6
+2, 212992, 100, 123
+ ---------------------- 
+ :::   2906[msec]   :::
+ ---------------------- 
+1561.27 GFLOPS/GPU
+ 780.87 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/6 (32844 ms)
+[ RUN      ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/7
+2, 245760, 100, 123
+ ---------------------- 
+ :::   3854[msec]   :::
+ ---------------------- 
+1567.29 GFLOPS/GPU
+ 783.85 GB/s / GPU
+[       OK ] BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double.halfTest/7 (44870 ms)
+[----------] 8 tests from BasicCaseParameters2GPU/CqaSymvProjectionTest_half_double (136466 ms total)
+
+[----------] 11 tests from BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/0
+4, 16384, 100, 123
+ ---------------------- 
+ :::   52[msec]   :::
+ ---------------------- 
+ 258.47 GFLOPS/GPU
+ 129.74 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/0 (1072 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/1
+4, 49152, 100, 123
+ ---------------------- 
+ :::   122[msec]   :::
+ ---------------------- 
+ 990.58 GFLOPS/GPU
+ 495.94 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/1 (2653 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/2
+4, 81920, 100, 123
+ ---------------------- 
+ :::   272[msec]   :::
+ ---------------------- 
+1233.96 GFLOPS/GPU
+ 617.46 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/2 (5643 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/3
+4, 114688, 100, 123
+ ---------------------- 
+ :::   489[msec]   :::
+ ---------------------- 
+1345.19 GFLOPS/GPU
+ 672.97 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/3 (10028 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/4
+4, 147456, 100, 123
+ ---------------------- 
+ :::   777[msec]   :::
+ ---------------------- 
+1399.39 GFLOPS/GPU
+ 700.00 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/4 (15833 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/5
+4, 180224, 100, 123
+ ---------------------- 
+ :::   1133[msec]   :::
+ ---------------------- 
+1433.57 GFLOPS/GPU
+ 717.04 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/5 (22789 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/6
+4, 212992, 100, 123
+ ---------------------- 
+ :::   1555[msec]   :::
+ ---------------------- 
+1458.85 GFLOPS/GPU
+ 729.65 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/6 (31407 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/7
+4, 245760, 100, 123
+ ---------------------- 
+ :::   2053[msec]   :::
+ ---------------------- 
+1471.10 GFLOPS/GPU
+ 735.74 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/7 (41601 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/8
+4, 278528, 100, 123
+ ---------------------- 
+ :::   2622[msec]   :::
+ ---------------------- 
+1479.48 GFLOPS/GPU
+ 739.91 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/8 (54230 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/9
+4, 311296, 100, 123
+ ---------------------- 
+ :::   3256[msec]   :::
+ ---------------------- 
+1488.21 GFLOPS/GPU
+ 744.26 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/9 (67258 ms)
+[ RUN      ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/10
+4, 344064, 100, 123
+ ---------------------- 
+ :::   3969[msec]   :::
+ ---------------------- 
+1491.41 GFLOPS/GPU
+ 745.84 GB/s / GPU
+[       OK ] BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double.halfTest/10 (80908 ms)
+[----------] 11 tests from BasicCaseParameters4GPU/CqaSymvProjectionTest_half_double (333427 ms total)
+
+[----------] Global test environment tear-down
+[==========] 25 tests from 3 test suites ran. (534337 ms total)
+[  PASSED  ] 25 tests.
